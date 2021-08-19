@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ProfitLoss Calculator</title>
+    <link href="/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navigation container">
+      <div ><a class="nav-brand" href="/index.html">Hitesh Verma</a> </div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link " href="/">Home</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link link-active" href="/projects.html">Projects</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/blogs.html">Blogs</a>
+        </li>
+      </ul>
+    </nav>
+
+   
+    <div style="height: 50vh;"></div><main>
+        <label for="initial-price"
+          >Initial Price
+          <input
+            type="number" min="0" oninput="validity.valid||(value='');"
+            id="initial-price"
+            placeholder="Enter initial price"
+          />
+        </label>
+        <label for="stocks-quantity"
+          >Stocks quantity
+          <input
+            type="number" min="0" oninput="validity.valid||(value='');"
+            id="stocks-quantity"
+            placeholder="Enter stocks quantity"
+            required="required"
+          />
+        </label>
+        <label for="current-price"
+          >Current Price
+          <input
+            type="number" min="0" oninput="validity.valid||(value='');"
+            id="current-price"
+            placeholder="Enter current price"
+          />
+        </label>
+        <button id="submit-button">Submit</button>
+        <div id="output-box"></div>
+      </main>
+      <script src="app.js"></script> </div>
+
+    <footer class="footer">
+      <div class="footer-header">Let's connect</div>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline">
+          <a
+            class="link"
+            href="https://www.linkedin.com/in/hitesh-verma-8727921b2/"
+          >
+            Linkedin
+          </a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://twitter.com/Trailblazer2711">
+            Twitter
+          </a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://github.com/hiteshverma27"> Github </a>
+        </li>
+      </ul>
+      <div style="padding: 1rem">Made with ❤️ by Hitesh Verma</div>
+    </footer>
+  </body>
+</html>
