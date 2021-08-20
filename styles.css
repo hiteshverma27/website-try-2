@@ -114,7 +114,8 @@ hr {
 }
 .project-img {
     max-width: 80%;
-    width: 200px;
+    width: 300px;
+    height: 200px;
     display: block;
     margin: auto;
 }
