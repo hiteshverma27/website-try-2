@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+
 :root {
     --primary-color: #242333;
     --off-white: #F3F4F6;
     --dark-gray: #6B7280;
+    
 }
 
 body {
@@ -133,6 +135,7 @@ hr {
 
 .section {
     padding: 2rem;
+    
 }
 
 .section h1 {
